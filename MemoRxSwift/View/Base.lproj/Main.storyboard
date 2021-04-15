@@ -27,7 +27,7 @@
         <!--New Memo-->
         <scene sceneID="c4Z-Px-czh">
             <objects>
-                <viewController id="yy8-if-4SY" sceneMemberID="viewController">
+                <viewController id="yy8-if-4SY" customClass="MemoComposeViewController" customModule="MemoRxSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Q6D-v7-ZpX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -44,7 +44,7 @@
         <!--Memo List-->
         <scene sceneID="44c-mA-Yti">
             <objects>
-                <viewController id="3n9-W0-Kcj" sceneMemberID="viewController">
+                <viewController id="3n9-W0-Kcj" customClass="MemoListViewController" customModule="MemoRxSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lFM-kF-b2v">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -61,7 +61,7 @@
         <!--Memo View-->
         <scene sceneID="fnd-cO-jgF">
             <objects>
-                <viewController storyboardIdentifier="DetailVC" id="nYD-uQ-tzh" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailVC" id="nYD-uQ-tzh" customClass="MemoDatailViewController" customModule="MemoRxSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dS1-P5-iub">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
