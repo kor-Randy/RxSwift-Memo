@@ -61,7 +61,7 @@
         <!--Memo View-->
         <scene sceneID="fnd-cO-jgF">
             <objects>
-                <viewController storyboardIdentifier="DetailVC" id="nYD-uQ-tzh" customClass="MemoDatailViewController" customModule="MemoRxSwift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailVC" id="nYD-uQ-tzh" customClass="MemoDetailViewController" customModule="MemoRxSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dS1-P5-iub">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
