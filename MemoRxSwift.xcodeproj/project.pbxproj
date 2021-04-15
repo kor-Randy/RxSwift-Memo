@@ -14,6 +14,7 @@
 		C2733AEF26280F3D000A73CC /* MemoRxSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C2733AED26280F3D000A73CC /* MemoRxSwift.xcdatamodeld */; };
 		C2733AF126280F3E000A73CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2733AF026280F3E000A73CC /* Assets.xcassets */; };
 		C2733AF426280F3E000A73CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2733AF226280F3E000A73CC /* LaunchScreen.storyboard */; };
+		C2733B3126281265000A73CC /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2733B3026281265000A73CC /* Memo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		C2733AF026280F3E000A73CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2733AF326280F3E000A73CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2733AF526280F3E000A73CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2733B3026281265000A73CC /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
 		CAE2DA82417FF7C6900FFF65 /* Pods-MemoRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemoRxSwift.release.xcconfig"; path = "Target Support Files/Pods-MemoRxSwift/Pods-MemoRxSwift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,6 +99,7 @@
 		C2733B2726281192000A73CC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C2733B3026281265000A73CC /* Memo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 				C2733AEF26280F3D000A73CC /* MemoRxSwift.xcdatamodeld in Sources */,
 				C2733AE526280F3D000A73CC /* AppDelegate.swift in Sources */,
 				C2733AE726280F3D000A73CC /* SceneDelegate.swift in Sources */,
+				C2733B3126281265000A73CC /* Memo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
