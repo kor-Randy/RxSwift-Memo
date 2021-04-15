@@ -1,0 +1,6 @@
+framework module Pods_MemoRxSwift {
+  umbrella header "Pods-MemoRxSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
