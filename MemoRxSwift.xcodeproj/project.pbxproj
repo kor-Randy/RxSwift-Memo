@@ -28,6 +28,7 @@
 		C2733B5626283068000A73CC /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2733B5526283068000A73CC /* Scene.swift */; };
 		C2733B5A262831E2000A73CC /* SceneCoordinatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2733B59262831E2000A73CC /* SceneCoordinatorType.swift */; };
 		C2733B5D2628324E000A73CC /* SceneCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2733B5C2628324E000A73CC /* SceneCoordinator.swift */; };
+		C2733B60262834CB000A73CC /* CommonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2733B5F262834CB000A73CC /* CommonViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		C2733B5526283068000A73CC /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
 		C2733B59262831E2000A73CC /* SceneCoordinatorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneCoordinatorType.swift; sourceTree = "<group>"; };
 		C2733B5C2628324E000A73CC /* SceneCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneCoordinator.swift; sourceTree = "<group>"; };
+		C2733B5F262834CB000A73CC /* CommonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonViewModel.swift; sourceTree = "<group>"; };
 		CAE2DA82417FF7C6900FFF65 /* Pods-MemoRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemoRxSwift.release.xcconfig"; path = "Target Support Files/Pods-MemoRxSwift/Pods-MemoRxSwift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -135,6 +137,7 @@
 				C2733B4526282EA5000A73CC /* MemoListViewModel.swift */,
 				C2733B4826282EC8000A73CC /* MemoDetailViewModel.swift */,
 				C2733B4B26282EE3000A73CC /* MemoComposeViewModel.swift */,
+				C2733B5F262834CB000A73CC /* CommonViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 				C2733B5A262831E2000A73CC /* SceneCoordinatorType.swift in Sources */,
 				C2733B4626282EA5000A73CC /* MemoListViewModel.swift in Sources */,
 				C2733B4926282EC8000A73CC /* MemoDetailViewModel.swift in Sources */,
+				C2733B60262834CB000A73CC /* CommonViewModel.swift in Sources */,
 				C2733B532628302E000A73CC /* TransitionModel.swift in Sources */,
 				C2733B3D26282E20000A73CC /* MemoListViewController.swift in Sources */,
 				C2733B4326282E5E000A73CC /* MemoComposeViewController.swift in Sources */,
