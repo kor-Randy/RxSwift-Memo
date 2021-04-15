@@ -10,7 +10,6 @@
 		3180060823FF454232720ECF /* Pods_MemoRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4679F4AC9118B9A8959AFBB5 /* Pods_MemoRxSwift.framework */; };
 		C2733AE526280F3D000A73CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2733AE426280F3D000A73CC /* AppDelegate.swift */; };
 		C2733AE726280F3D000A73CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2733AE626280F3D000A73CC /* SceneDelegate.swift */; };
-		C2733AE926280F3D000A73CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2733AE826280F3D000A73CC /* ViewController.swift */; };
 		C2733AEC26280F3D000A73CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2733AEA26280F3D000A73CC /* Main.storyboard */; };
 		C2733AEF26280F3D000A73CC /* MemoRxSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C2733AED26280F3D000A73CC /* MemoRxSwift.xcdatamodeld */; };
 		C2733AF126280F3E000A73CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2733AF026280F3E000A73CC /* Assets.xcassets */; };
@@ -23,7 +22,6 @@
 		C2733AE126280F3D000A73CC /* MemoRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2733AE426280F3D000A73CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2733AE626280F3D000A73CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C2733AE826280F3D000A73CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C2733AEB26280F3D000A73CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C2733AEE26280F3D000A73CC /* MemoRxSwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MemoRxSwift.xcdatamodel; sourceTree = "<group>"; };
 		C2733AF026280F3E000A73CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -82,16 +80,71 @@
 		C2733AE326280F3D000A73CC /* MemoRxSwift */ = {
 			isa = PBXGroup;
 			children = (
-				C2733AE426280F3D000A73CC /* AppDelegate.swift */,
+				C2733B2E26281230000A73CC /* Resource */,
+				C2733B2D26281227000A73CC /* App */,
+				C2733B2B262811CD000A73CC /* Scene */,
+				C2733B2A262811C7000A73CC /* Service */,
+				C2733B292628119D000A73CC /* View */,
+				C2733B2826281197000A73CC /* ViewModel */,
+				C2733B2726281192000A73CC /* Model */,
 				C2733AE626280F3D000A73CC /* SceneDelegate.swift */,
-				C2733AE826280F3D000A73CC /* ViewController.swift */,
-				C2733AEA26280F3D000A73CC /* Main.storyboard */,
-				C2733AF026280F3E000A73CC /* Assets.xcassets */,
-				C2733AF226280F3E000A73CC /* LaunchScreen.storyboard */,
 				C2733AF526280F3E000A73CC /* Info.plist */,
 				C2733AED26280F3D000A73CC /* MemoRxSwift.xcdatamodeld */,
 			);
 			path = MemoRxSwift;
+			sourceTree = "<group>";
+		};
+		C2733B2726281192000A73CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C2733B2826281197000A73CC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C2733B292628119D000A73CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C2733AEA26280F3D000A73CC /* Main.storyboard */,
+				C2733AF226280F3E000A73CC /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C2733B2A262811C7000A73CC /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		C2733B2B262811CD000A73CC /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		C2733B2D26281227000A73CC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C2733AE426280F3D000A73CC /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C2733B2E26281230000A73CC /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C2733AF026280F3E000A73CC /* Assets.xcassets */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,7 +261,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2733AE926280F3D000A73CC /* ViewController.swift in Sources */,
 				C2733AEF26280F3D000A73CC /* MemoRxSwift.xcdatamodeld in Sources */,
 				C2733AE526280F3D000A73CC /* AppDelegate.swift in Sources */,
 				C2733AE726280F3D000A73CC /* SceneDelegate.swift in Sources */,
