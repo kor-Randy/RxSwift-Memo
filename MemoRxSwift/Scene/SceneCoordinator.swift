@@ -12,12 +12,13 @@ import RxCocoa
 class SceneCoordinator: SceneCoordinatorType{
     
     private let bag = DisposeBag()
+    
     private var window: UIWindow
     private var currentVC: UIViewController
     
     required init(window: UIWindow) {
         self.window = window
-        self.currentVC = window.rootViewController!
+        currentVC = window.rootViewController!
     }
     
     @discardableResult
