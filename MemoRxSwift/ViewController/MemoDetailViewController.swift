@@ -47,6 +47,8 @@ class MemoDetailViewController: UIViewController, ViewModelBindableType{
             }
             .disposed(by: bag)
         
+        editButton.rx.action = viewModel.makeEditAction()
+        
     }
     
 }
