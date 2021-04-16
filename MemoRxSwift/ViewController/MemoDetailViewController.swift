@@ -36,7 +36,7 @@ class MemoDetailViewController: UIViewController, ViewModelBindableType{
                     let cell = tableView.dequeueReusableCell(withIdentifier: "ContentCell")!
                     cell.textLabel?.text = value
                     return cell
-                case .1:
+                case 1:
                     let cell = tableView.dequeueReusableCell(withIdentifier: "DateCell")!
                     cell.textLabel?.text = value
                     return cell
@@ -46,6 +46,7 @@ class MemoDetailViewController: UIViewController, ViewModelBindableType{
                 }
             }
             .disposed(by: bag)
+        
     }
     
 }
