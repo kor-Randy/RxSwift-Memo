@@ -60,6 +60,13 @@ class MemoDetailViewModel: CommonViewModel {
         }
     }
 
+    func makeDeleteAction() -> CocoaAction{
+        return Action { input in
+            self.storage.remove(memo: self.memo)
+            return self.sceneCoordinator.close(animated: true).asObservable().map{ _ in }
+        }
+    }
+    
     // MARK: Private
 
     private var formatter: DateFormatter = {

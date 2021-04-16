@@ -8,6 +8,7 @@
 import UIKit
 import RxCocoa
 import RxSwift
+import RxDataSources
 
 class MemoListViewController: UIViewController, ViewModelBindableType {
     
@@ -43,7 +44,11 @@ class MemoListViewController: UIViewController, ViewModelBindableType {
             })
             .map{ $0.0 }
             .bind(to: viewModel.detailAction.inputs)
-//            .bind(to: viewModel.detailAction().inputs)
+//            .bind(to: viewModel.detailAction().inputs) 얘는 안되던데? 왜 안되냐
+            .disposed(by: bag)
+        
+        listTableView.rx.modelDeleted(Memo.self)
+            .bind(to: viewModel.deleteAction.inputs)
             .disposed(by: bag)
         
     }
