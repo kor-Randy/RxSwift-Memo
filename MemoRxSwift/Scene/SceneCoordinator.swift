@@ -31,6 +31,7 @@ class SceneCoordinator: SceneCoordinatorType{
         case .root:
             currentVC = target
             window.rootViewController = target
+            
             subject.onCompleted()
             
         case .push:
@@ -41,9 +42,12 @@ class SceneCoordinator: SceneCoordinatorType{
             
             nav.pushViewController(target, animated: animated)
             currentVC = target
+            
             subject.onCompleted()
             
         case .modal:
+            print("currentVc = \(currentVC)")
+            print("target = \(target)")
             currentVC.present(target, animated: animated) {
                 subject.onCompleted()
             }

@@ -33,6 +33,8 @@ class MemoListViewController: UIViewController, ViewModelBindableType {
                 cell.textLabel?.text = memo.content
             }
             .disposed(by: bag)
+        
+        addButton.rx.action = viewModel.makeCreateAction()
     }
 
 }
